@@ -1,0 +1,66 @@
+*{margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar{
+    background: #40004a;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.navbar>h1{
+    font-size: 45px;
+    color: white;
+    
+}
+
+
+.navbar>ul{
+/* border: 2px solid black; */
+width: 60%;
+font-size: 30px;
+color: white;
+display: flex ;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.navbar>ul>li{
+    list-style: none;
+    font-family: 'Bakbak One', cursive;
+font-family: 'Lobster', cursive;
+}
+
+.navbar>ul>li>a{
+    text-decoration: none;
+}
+
+
+.cantainer{
+    border: 2px solid black;
+    height: 600px;
+    width: 100%;
+    background: url("https://weddingbanquets.in/blog/wp-content/uploads/2022/04/Bougainvillaea.jpg"); 
+    background-repeat: no-repeat ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box1{
+   background-color: #fff;
+   padding: 20px;
+    width: 40%;
+    border-radius: 15px;
+}
+
